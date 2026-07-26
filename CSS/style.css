@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    width: 140px;
+    height: 65px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu div{
+    display: flex;
+    
+}
+
+.menu div a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+}
